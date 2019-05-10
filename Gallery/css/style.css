@@ -3,11 +3,38 @@
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
   }
-  .site-header a {
-    color: #999;
-    transition: ease-in-out color .15s;
-  }
-  .site-header a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.front-page{
+  background-color: aliceblue;
+  background-image: url("img/front-page.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay-text{
+  opacity: 0;
+}
+
+
+
+.overlay-text:hover{
+  opacity: 1;
+  background-color: rgba(0, 0, 0, .7)
+}
+
+.card{
+  border: none;
+}
+
+.card-img{
+  border-radius: 0;
+}

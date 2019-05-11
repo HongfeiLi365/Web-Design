@@ -7,40 +7,52 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
 
     <title>Luk's Gallery</title>
   </head>
   <body>
 
-    <nav class="site-header sticky-top py-1">
-        <div class="container d-flex flex-column flex-md-row justify-content-between">
-          <a class="py-2" href="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
-          </a>
-          <a class="py-2 d-none d-md-inline-block active" href="index.html">Home</a>
-          <a class="py-2 d-none d-md-inline-block" href="spider.html">Marvel's Spiderman</a>
-          <a class="py-2 d-none d-md-inline-block" href="hzd.html">Horizon Zero Dawn</a>
-          <a class="py-2 d-none d-md-inline-block" href="days-gone.html">Days Gone</a>
-          <a class="py-2 d-none d-md-inline-block" href="ffxv.html">Final Fantasy XV</a>
-        </div>
-    </nav>
+
+    <nav class="navbar navbar-expand-md site-header">
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item mx-md-2 mx-lg-4 active">
+                  <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item mx-md-2 mx-lg-4">
+                  <a class="nav-link" href="spider.html">Marvel's Spider-Man</a>
+                </li>
+                <li class="nav-item mx-md-2 mx-lg-4">
+                  <a class="nav-link" href="hzd.html">Horizon Zero Dawn</a>
+                </li>
+                <li class="nav-item mx-md-2 mx-lg-4">
+                    <a class="nav-link" href="ffxv.html">Final Fantasy XV</a>
+                </li>
+                <li class="nav-item mx-md-2 mx-lg-4">
+                    <a class="nav-link" href="days-gone.html">Days Gone</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
     
-    <div class="front-page position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center">
+    <div class="front-page position-relative overflow-hidden p-3 p-md-5 m-0 mb-md-3 text-center text-white">
         <div class="col-md-5 p-lg-5 mx-auto my-5">
-          <h1 class="display-4 font-weight-normal">Luk's Gallery</h1>
-          <p class="lead font-weight-normal">Screenshots of Single Player<br>Story-Driven Action-Adventure Games.</p>
-          <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+          <h1 class="display-4 font-weight-normal">Luk's Collection</h1>
+          <p class="lead font-weight-normal">Introduction to My Favourite PS4 Games</p>
+          <a class="btn btn-outline-secondary" href="#spider">Explore</a>
         </div>
-        <!-- <div class="product-device shadow-sm d-none d-md-block"></div> -->
-        <!-- <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 mb-1 mb-md-3">
-        <div class="bg-dark mb-1 mb-md-0 mx-md-3 text-center  overflow-hidden">
-            <a href="spider.html">
+    <div class="d-md-flex flex-md-equal w-100 mb-md-3">
+        <div class="bg-dark m-2 my-md-0 mx-md-3 text-center  overflow-hidden">
+            <a href="spider.html" name="spider">
               <div class="card bg-dark align-middle text-white ">
-                  <img src="img/spider (1).jpg" class="img-fluid card-img">
+                  <img src="img/spider1.jpg" class="img-fluid card-img" alt="spiderman">
                   <div class="card-img-overlay overlay-text d-flex flex-column justify-content-center">
                       <h2 class="display-4">Marvel's Spider-Man</h2>
                   </div>
@@ -49,10 +61,10 @@
             
         </div>
 
-        <div class="bg-dark  mr-md-3 text-center text-white overflow-hidden">
+        <div class="bg-dark m-2 my-md-0 ml-md-0 mr-md-3 text-center text-white overflow-hidden">
             <a href="hzd.html">
                 <div class="card bg-dark align-middle text-white ">
-                    <img src="img/hzd1.jpg" class="img-fluid card-img">
+                    <img src="img/hzd1.jpg" class="img-fluid card-img" alt="horizon zero dawn">
                     <div class="card-img-overlay overlay-text d-flex flex-column justify-content-center">
                         <h2 class="display-4">Horizon: Zero Dawn</h2>
                     </div>
@@ -61,21 +73,21 @@
         </div>
     </div>
 
-    <div class="d-md-flex flex-md-equal w-100 mb-1 mb-md-3">
-        <div class="bg-dark mb-1 mb-md-0 mx-md-3 text-center overflow-hidden">
+    <div class="d-md-flex flex-md-equal w-100 mb-md-3">
+        <div class="bg-dark m-2 my-md-0 mx-md-3 text-center overflow-hidden">
             <a href="ffxv.html">
                 <div class="card bg-dark align-middle text-white ">
-                    <img src="img/ffxv1.jpg" class="img-fluid card-img">
+                    <img src="img/ffxv1.jpg" class="img-fluid card-img" alt="ffxv">
                     <div class="card-img-overlay overlay-text d-flex flex-column justify-content-center">
                         <h2 class="display-4">Final Fantasy XV</h2>
                     </div>
                 </div>
             </a>
         </div>
-        <div class="bg-dark mr-md-3 text-center text-white overflow-hidden">
+        <div class="bg-dark m-2 my-md-0 ml-md-0 mr-md-3 text-center text-white overflow-hidden">
             <a href="days-gone.html">
                 <div class="card bg-dark align-middle text-white ">
-                    <img src="img/dg1.jpg" class="img-fluid card-img">
+                    <img src="img/dg1.jpg" class="img-fluid card-img" alt="days gone">
                     <div class="card-img-overlay overlay-text d-flex flex-column justify-content-center">
                         <h2 class="display-4">Days Gone</h2>
                     </div>

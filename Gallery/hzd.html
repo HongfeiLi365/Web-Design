@@ -7,10 +7,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- custom CSS-->
     <link href="css/style.css" rel="stylesheet">
+    <!-- custom js-->
+    <script src="js/script.js"></script>
 
-    <title>Horizon: Zero Dawn</title>
+    <title>Luk's Collection</title>
   </head>
   <body>
         <nav class="navbar navbar-expand-md site-header">
@@ -37,6 +39,28 @@
                   </ul>
                 </div>
               </nav>
+
+    <div class="container">
+          
+        <div class="img-magnifier-container">
+          <img id="myimage" src="img/hzd2.jpg" class="img-fluid" alt="game screenshot" onmouseover="magnify()" onmouseout="deconstruct()">
+        </div>
+
+        <script>
+          /* Initiate Magnify Function
+          with the id of the image, and the strength of the magnifier glass:*/
+          magnify();
+        </script>
+
+        <section class="mt-2">
+          <h1>Horizon: Zero Dawn</h1>
+          
+            <p class="pt-1">
+            Initial release date: February 28, 2017<br>
+            Developer: Guerrilla Games<br>
+            Metacritic: 89%</p>
+        </section>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

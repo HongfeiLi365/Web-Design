@@ -61,6 +61,10 @@
 
 }
 
+.video-responsive iframe{
+  border: none;
+}
+
 
 .video-responsive iframe{
   left:0;

@@ -1,4 +1,4 @@
 # Web-Design
 Web Design Project
 
-View this project at https://hongfeili365.github.io/Web-Design/
+View this webpage I made at https://hongfeili365.github.io/Web-Design/Gallery/index.html
